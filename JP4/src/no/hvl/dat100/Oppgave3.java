@@ -13,10 +13,9 @@ public class Oppgave3 extends EasyGraphics {
 		//teiknLinjeDiagram(20, 20, 200, 200, 0.35, "Abcde");
 		
 		final double[] ANDELAR = {
-				0.35, 0.18, 0.57, 0.98, 0.57, 
-				0.38, 0.87, 0.35, 0.58
+				0.35, 0.18, 0.57
 								  };
-		final String[] TITLAR = {"F", "A", "E", "N", "T", "A", "D", "E", "G"};
+		final String[] TITLAR = {"A", "B", "C"};
 		final String VENSTRE_TITTEL = "Guttar";
 		final String HØGRE_TITTEL = "Jenter";
 		
@@ -26,6 +25,7 @@ public class Oppgave3 extends EasyGraphics {
 		}
 		
 		makeWindow("LinjeDiagram", 340, 40 + ANDELAR.length*90);
+		//teiknLinjeDiagram( 50, 50, 200, 100, 0.30, "Fiskesuppe");
 		diagramRekke(ANDELAR, TITLAR, VENSTRE_TITTEL, HØGRE_TITTEL);
 		
 		
